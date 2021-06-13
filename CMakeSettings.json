@@ -1,0 +1,23 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-najia-reless",
+      "generator": "Ninja",
+      "configurationType": "Release",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "ctestCommandArgs": ""
+    },
+    {
+      "name": "x64-vs2019-release",
+      "generator": "Visual Studio 16 2019 Win64",
+      "configurationType": "Release",
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "variables": []
+    }
+  ]
+}
